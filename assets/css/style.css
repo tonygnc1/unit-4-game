@@ -8,7 +8,8 @@ body {
 }
 
 section {
-    background-color: #ebebeb;
+    background-color: #f6e8e8;
+    color: green;
     width: 580px;
     height: 400px;
     padding: 20px;
@@ -28,7 +29,6 @@ section {
 }
 
 .scoreBoard {
-    position: relative;
     background-color: rgb(84, 63, 141);
     width: 100px;
     height: 100px;
@@ -36,6 +36,11 @@ section {
     margin: 5px 0px 5px 45px;
     border: 1px solid white;
     text-align: center;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
 }
 
 .var userGuess { 
