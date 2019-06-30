@@ -3,9 +3,9 @@ body {
     max-width: 960px;
 }
 
-.container {
-    max-width: 960px;
-}
+/* .container {
+    max-width: 500px;
+} */
 
 section {
     background-color: #f6e8e8;
@@ -36,11 +36,23 @@ section {
     margin: 5px 0px 5px 45px;
     border: 1px solid white;
     text-align: center;
+    color: ghostwhite;
 }
 
 .img {
     height: 100%;
     width: 100%;
+}
+
+.userScore {
+    background-color: #317c9e;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid white;
+    text-align: left;
+    color: rgb(13, 13, 14);
 }
 
 .var userGuess { 
