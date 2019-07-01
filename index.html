@@ -16,82 +16,83 @@
 
 <body>
 
-    <div class="container">
+    <div class="body">
+        <div class="container">
 
-        <div class="h3"
-            style="color: #eaf3f3; margin: 20px 0px 0px 0px; height: 100px; width: 250px; padding: 30px 10px; background-color: coral">
-            Crystals Collector!</div>
+            <div class="h3"
+                style="color: #eaf3f3; margin: 20px 0px 0px 0px; height: 100px; width: 250px; padding: 30px 10px; background-color: coral">
+                Crystals Collector!</div>
 
-        <section>
+            <section>
 
-            <ul>
-                <li>You will be given a random number at the start of the game;</li>
-                <br>
-                <br>
-                <li>There are four crystals below. By clicking on a crystal, you
-                    will a specific amount of points to your total score.</li>
-                <br>
-                <br>
-                <li>You will win the game by matching your total score to the random
-                    number, you lose the game if your total score guess goes above
-                    the random number</li>
-                <br>
-                <br>
-                <li>The value of each crystal is hidden from you until you click on it.</li>
-                <br>
-                <br>
-                <li>Each time when the game starts, the game will change the values
-                    of each crystal</li>
-            </ul>
-        </section>
+                <ul>
+                    <li>You will be given a random number at the start of the game;</li>
+                    <br>
+                    <br>
+                    <li>There are four crystals below. By clicking on a crystal, you
+                        will a specific amount of points to your total score.</li>
+                    <br>
+                    <br>
+                    <li>You will win the game by matching your total score to the random
+                        number, you lose the game if your total score guess goes above
+                        the random number</li>
+                    <br>
+                    <br>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <br>
+                    <br>
+                    <li>Each time when the game starts, the game will change the values
+                        of each crystal</li>
+                </ul>
+            </section>
 
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="randomNumber"></div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="scoreBoard"></div>
+                </div>
+                <div class="col-sm-9"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1">
+                    <img src="assets/images/crystal-1.jpg" width="75px,">
+                </div>
+                <div class="col-lg-1">
+                    <img src="assets/images/crystal-2.jpg" width="75px,">
+                </div>
+                <div class="col-lg-1">
+                    <img src="assets/images/crystal-3.jpg" width="75px,">
+                </div>
+                <div class="col-lg-1">
+                    <img src="assets/images/crystal-4.jpg" width="75px,">
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="h5"
+                    style="color: #e9f3f3; margin: 10px 0px 0px 15px; height: 35px; width: 250px; padding: 5px 5px; background-color: #317c9e">
+                    Your total score is:
+                </div>
+            </div>
+            <div class="col-sm-10"></div>
+        </div>
 
         <div class="row">
             <div class="col-sm-2">
-                <div class="randomNumber"></div>
+                <div class="userScore"></div>
             </div>
-            <div class="col-sm-1">
-                <div class="scoreBoard"></div>
-            </div>
-            <div class="col-sm-9"></div>
+            <div class="col-sm-10"></div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-2">
-                <img src="assets/images/crystal-1.jpg" width="150px,">
-            </div>
-            <div class="col-lg-2">
-                <img src="assets/images/crystal-2.jpg" width="150px,">
-            </div>
-            <div class="col-lg-2">
-                <img src="assets/images/crystal-3.jpg" width="150px,">
-            </div>
-            <div class="col-lg-2">
-                <img src="assets/images/crystal-4.jpg" width="150px,">
-            </div>
-            <div class="col-lg-4"></div>
-        </div>
+        <link rel="stylesheet" type="text/css" href="assets/javascript/game.js">
     </div>
-
-    <div class="row">
-        <div class="col-lg-2">
-            <div class="h5"
-                style="color: #e9f3f3; margin: 10px 0px 0px 15px; height: 35px; width: 250px; padding: 5px 5px; background-color: #317c9e">
-                Your total score is:
-            </div>
-        </div>
-        <div class="col-sm-10"></div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-2">
-            <div class="userScore"></div>
-        </div>
-        <div class="col-sm-10"></div>
-    </div>
-
-    <link rel="stylesheet" type="text/css" href="assets/javascript/game.js">
-
 </body>
 
 </html>
