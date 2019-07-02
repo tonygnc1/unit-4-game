@@ -4,10 +4,6 @@ body {
     max-width: 960px;
 }
 
-/* .container {
-    max-width: 500px;
-} */
-
 section {
     background-color: #f6e8e8;
     color: green;
@@ -51,6 +47,4 @@ section {
     color: rgb(13, 13, 14);
 }
 
-.var userGuess { 
-
-}
+/* Need to add classes for scores */
