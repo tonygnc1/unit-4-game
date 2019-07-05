@@ -1,5 +1,5 @@
-body {
-    background-image: url("assets/images/Crystal-Background.png");
+.body {
+    background-image: url("/unit-4-game/assets/images/Crystal.png");
     background-color: aquamarine;
     max-width: 960px;
 }
@@ -15,7 +15,7 @@ section {
     text-align: left;
 }
 
-.randomNumber {
+#randomNumber {
     background-color: rgb(66, 141, 66);
     width: 200px;
     height: 100px;
@@ -25,7 +25,7 @@ section {
     text-align: left;
 }
 
-.scoreBoard {
+#scoreBoard {
     background-color: rgb(134, 217, 224);
     width: 75px;
     height: 100px;
@@ -36,7 +36,7 @@ section {
     color: ghostwhite;
 }
 
-.userScore {
+#userScore {
     background-color: #317c9e;
     width: 200px;
     height: 100px;
