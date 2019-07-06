@@ -1,5 +1,5 @@
 .body {
-    /* background-image: url("/unit-4-game/assets/images/Crystal.jpg"); */
+    background-image: url("../images/Crystal.jpg");
     background-color: aquamarine;
     max-width: 960px;
 }
