@@ -50,4 +50,8 @@ section {
     color: rgb(13, 13, 14);
 }
 
+.alertMe {
+    height: 100px;
+}
+
 /* Need to add classes for scores */

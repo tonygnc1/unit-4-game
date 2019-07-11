@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -31,7 +31,7 @@
                     <br>
                     <br>
                     <li>There are four crystals below. By clicking on a crystal, you
-                        will a specific amount of points to your total score.</li>
+                        will add a specific amount of points to your total score.</li>
                     <br>
                     <br>
                     <li>You will win the game by matching your total score to the random
@@ -47,7 +47,7 @@
                 </ul>
             </section>
 
-                    <!-- Generated random generated number -->
+            <!-- Generated random generated number -->
             <div class="row">
                 <div class="col-sm-2">
                     <h2 id="randomNumber"></h2>
@@ -62,17 +62,24 @@
 
             <div class="row">
                 <div class="col-lg-1">
-                    <img src="assets/images/crystal1.jpg" width="75px,">
+                    <div id="crystals"></div>
+                    <!-- <img class="crystals" onclick="popCrystal(event, 'image1')" id="image1"
+                        src="assets/images/crystal1.jpg" width="75px," onclick="myfunction()" />
                 </div>
                 <div class="col-lg-1">
-                    <img src="assets/images/crystal2.jpg" width="75px,">
+                    <img class="crystals" onclick="popCrystal(event, 'image2')" id="image2"
+                        src="assets/images/crystal2.jpg" width="75px," onclick="myfunction()" />
                 </div>
                 <div class="col-lg-1">
-                    <img src="assets/images/crystal3.jpg" width="75px,">
+                    <img class="crystals" onclick="popCrystal(event, 'image3')" id="image3"
+                        src="assets/images/crystal3.jpg" width="75px," onclick="myfunction()" />
                 </div>
                 <div class="col-lg-1">
-                    <img src="assets/images/crystal4.jpg" width="75px,">
+                    <img class="crystals" onclick="popCrystal(event, 'image4')" id="image4"
+                        src="assets/images/crystal4.jpg" width="75px," onclick="myfunction()" />
+                </div> -->
                 </div>
+            
                 <div class="col-lg-4"></div>
             </div>
         </div>
@@ -91,15 +98,18 @@
         <div class="row">
             <div class="col-sm-2">
                 <div class="h2">
-               <div id="userScore">
-                <!-- Need to add user score -->
-</div>
-            </div>
-            <div class="col-sm-10"></div>
-        </div>
+                    <div id="userScore">
 
+                        <!-- Need to add user score -->
+                    </div>
+                </div>
+                <div class="col-sm-10"></div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <!-- <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js"> -->
-        <!-- <script src="assets/javascript/games.js"></script> -->
-    </body>
-    <script src="assets/javascript/games.js"></script>
-    </html>
+        <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
