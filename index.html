@@ -55,61 +55,70 @@
 
                 <div class="col-sm-1">
                     <!-- Need to add wins and losses -->
-                    <div id="scoreBoard"></div>
+
+
+                    <div id="scoreBoard">
+                        <h7>Wins:</h7>
+                        <br>
+                        <br>
+                        <h7>Losses:</h7>
+                    </div>
+
                 </div>
                 <div class="col-sm-9"></div>
             </div>
 
             <div class="row">
                 <div class="col-lg-1">
-                    <div id="crystals"></div>
-                    <!-- <img class="crystals" onclick="popCrystal(event, 'image1')" id="image1"
-                        src="assets/images/crystal1.jpg" width="75px," onclick="myfunction()" />
+                    <button id="crystal1" value="0"> <img src="assets/images/crystal1.jpg" width="60px,">
                 </div>
-                <div class="col-lg-1">
-                    <img class="crystals" onclick="popCrystal(event, 'image2')" id="image2"
-                        src="assets/images/crystal2.jpg" width="75px," onclick="myfunction()" />
-                </div>
-                <div class="col-lg-1">
-                    <img class="crystals" onclick="popCrystal(event, 'image3')" id="image3"
-                        src="assets/images/crystal3.jpg" width="75px," onclick="myfunction()" />
-                </div>
-                <div class="col-lg-1">
-                    <img class="crystals" onclick="popCrystal(event, 'image4')" id="image4"
-                        src="assets/images/crystal4.jpg" width="75px," onclick="myfunction()" />
-                </div> -->
-                </div>
-            
-                <div class="col-lg-4"></div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="h5"
-                    style="color: #e9f3f3; margin: 10px 0px 0px 15px; height: 35px; width: 250px; padding: 5px 5px; background-color: #317c9e">
-                    Your total score is:
-                    <!-- Need to add total score -->
+                <div class="col-lg-1">
+                    <button id="crystal2" value="0"> <img src="assets/images/crystal2.jpg" width="60px,">
+                </div>
+
+                <div class="col-lg-1">
+                    <button id="crystal3" value="0"> <img src="assets/images/crystal3.jpg" width="60px,">
+                </div>
+                
+                <div class="col-lg-1">
+                    <button id="crystal4" value="0"><img src="assets/images/crystal4.jpg" width="60px,">
                 </div>
             </div>
-            <div class="col-sm-10"></div>
-        </div>
 
-        <div class="row">
-            <div class="col-sm-2">
-                <div class="h2">
-                    <div id="userScore">
+            <div class="col-lg-4"></div>
 
-                        <!-- Need to add user score -->
+
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <div id="h5">
+                 <p>You total score is:></p>
+                    </div>
+                       
+                        
+                        <!-- Need to add total score -->
                     </div>
                 </div>
                 <div class="col-sm-10"></div>
             </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="h2">
+                        <div id="yourScore">
+
+                            <!-- Need to add user score -->
+                        </div>
+                    </div>
+                    <div class="col-sm-10"></div>
+                </div>
+            </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <!-- <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js"> -->
-        <script src="./assets/javascript/game.js"></script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js"> -->
+    <script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
