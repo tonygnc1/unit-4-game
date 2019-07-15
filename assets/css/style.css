@@ -65,6 +65,25 @@ section {
     font-size: 20px;
     text-align: center;
 }
-                        
 
-/* Need to add classes for scores */
+@media only screen and (max-width:980px) {
+    body {
+     margin: 0px 0px 0px 125px;
+     width: 50%
+    } 
+}
+@media only screen and (max-width:768px) {
+     body {
+       width: 100%;
+       
+    }
+    
+}
+   
+@media only screen and (max-width:640px) {
+    body {
+       width: 100%;
+       
+    }
+   
+}

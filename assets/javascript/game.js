@@ -41,35 +41,44 @@ var addValues = function (crystalValues) {
     console.log("Your current score:" + currentScore);
 }
 
-// Add to wins and losses box
+// Add to wins and losses box 
+function winOrLoss() {
+console.log("win or losses running");
 if (currentScore > randomNumber) {
     losses++;
 
-    $("losses").html(losses);
+    $("#losses").html(losses);
 }
 
 else if (currentScore === randomNumber) {
     wins++;
 
-    $("wins").html(wins);
+    $("#wins").html(wins);
+}
 }
 
 // Function to add the value of each click
 $("#crystal1").click(function () {
     addValues(crystalValues.crystal1);
+    winOrLoss();
 
 });
 
 $("#crystal2").click(function () {
     addValues(crystalValues.crystal2);
+    winOrLoss();
 });
 
 $("#crystal3").click(function () {
     addValues(crystalValues.crystal3);
+    winOrLoss();
+    
 });
 
 $("#crystal4").click(function () {
     addValues(crystalValues.crystal4);
+    winOrLoss();
+
 });
 
 
